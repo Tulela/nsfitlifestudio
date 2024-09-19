@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gym Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gym Image Gallery</h1>
+    <p>Check out the latest pictures from our gym</p>
+
+    <div class="gallery">
+        <img src="images/gym-hero.jpg" alt="Gym Hero Image">
+        <img src="images/personal-training.jpg" alt="Personal Training">
+        <img src="images/group-classes.jpg" alt="Group Classes">
+        <img src="images/nutrition.jpg" alt="Nutrition Plans">
+        <img src="images/muay-thai.jpg" alt="Muay Thai Classes">
+        <img src="images/workout-area.jpg" alt="Workout Area">
+    </div>
+
+</body>
+</html>
+

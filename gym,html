@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>FitLife Gym</h1>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#insights">Insights</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to FitLife Gym</h2>
+            <p>Transform your body and health with our professional trainers.</p>
+            <button class="cta-button">Join Us Today</button>
+        </div>
+        <div class="hero-image">
+            <img src="gym-hero.jpg" alt="People working out in the gym">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At FitLife Gym, we pride ourselves in helping individuals reach their fitness goals. Whether you're looking for personal training, group classes, or nutrition coaching, we have everything you need to succeed.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <img src="personal-training.jpg" alt="Personal Training">
+            <h3>Personal Training</h3>
+            <p>One-on-one sessions with expert trainers to help you achieve your goals.</p>
+        </div>
+        <div class="service-card">
+            <img src="group-classes.jpg" alt="Group Classes">
+            <h3>Group Classes</h3>
+            <p>Engage in high-energy group sessions with a fun, motivating environment.</p>
+        </div>
+        <div class="service-card">
+            <img src="nutrition.jpg" alt="Nutrition Plans">
+            <h3>Nutrition Plans</h3>
+            <p>Personalized meal plans tailored to complement your fitness journey.</p>
+        </div>
+    </section>
+
+    <!-- Insights Section with Animations -->
+    <section id="insights">
+        <h2>Our Achievements</h2>
+        <div class="insights-wrapper">
+            <div class="insight">
+                <div class="circle">
+                    <span class="number">4+</span>
+                </div>
+                <p>Years of Experience</p>
+            </div>
+            <div class="insight">
+                <div class="circle">
+                    <span class="number">500+</span>
+                </div>
+                <p>People Trained</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Fill in the form below to get in touch with us!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="cta-button">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FitLife Gym. All Rights Reserved. Contact us at 0815572612 or email us at info@fitlifegym.com</p>
+    </footer>
+</body>
+</html>
+
+
